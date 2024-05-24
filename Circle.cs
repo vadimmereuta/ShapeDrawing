@@ -20,7 +20,10 @@ namespace ShapeDrawing
             r = radius;
         }
 
-        
+        public void Draw()
+        {
+            Console.WriteLine();
+        }
 
 
 
