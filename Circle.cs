@@ -22,7 +22,22 @@ namespace ShapeDrawing
 
         public void Draw()
         {
-            Console.WriteLine();
+            int d = (r * 2) + 1;
+
+            for(int i  = r; i < d; i++)
+            {
+                for(int j = 0; j < d/2; j++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int j = 0; j < d; j++)
+                {
+                    Console.Write("x ");
+                }
+
+                Console.WriteLine();
+            }
         }
 
 
